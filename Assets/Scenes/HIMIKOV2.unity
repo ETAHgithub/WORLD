@@ -635,6 +635,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8533986057709896518}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &427925986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427925981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 260b1dbff4bcf574d93d0d92ac7d5f29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  maxHealth: 5
+  projectilePrefab: {fileID: 8533986057282052763, guid: e30d4c8bbd8672c4f9d4962ba0934133,
+    type: 3}
+  throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
+  hitSound: {fileID: 8300000, guid: ae904c7305df7344d86b2092c0cb3a26, type: 3}
+  timeInvincible: 2
 --- !u!82 &427925987
 AudioSource:
   m_ObjectHideFlags: 0
@@ -731,22 +750,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &427925989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427925981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc784039a61635b459f42a46feb550fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  maxHealth: 5
-  projectilePrefab: {fileID: 0}
-  timeInvincible: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2463,5 +2466,6 @@ PrefabInstance:
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 765528996}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8533986057282052774, guid: e30d4c8bbd8672c4f9d4962ba0934133, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e30d4c8bbd8672c4f9d4962ba0934133, type: 3}
